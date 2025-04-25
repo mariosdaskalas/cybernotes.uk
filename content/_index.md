@@ -21,39 +21,6 @@ sections:
         position: center
         size: cover
     css_class: dark
-- block: markdown
-  content:
-    subtitle: ""
-    text: ""
-    title: ""
-  design:
-    columns: "1"
-- block: collection
-  content:
-    count: 5
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    page_type: post
-    subtitle: ""
-    text: ""
-    title:
-  design:
-    spacing:
-      padding:
-      - 0
-      - 0
-      - 0
-      - 0
-    view: date-title-summary
-  id: news
 - block: cta-card
   content:
     button:
