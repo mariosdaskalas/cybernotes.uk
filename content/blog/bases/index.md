@@ -1,7 +1,6 @@
 ---
 authors:
 - admin
-- Ted
 date: "2025-05-25"
 image:
   caption: ''
