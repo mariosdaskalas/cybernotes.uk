@@ -26,32 +26,30 @@ awards:
   title: Object-Oriented Programming in R
   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
 education:
-- area: PhD Artificial Intelligence
+- area: MSc Psychology
   button:
     text: Read Thesis
     url: https://example.com
   date_end: "2020-12-31"
   date_start: "2016-01-01"
-  institution: Stanford University
+  institution: University of Leicester
   summary: |
     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-- area: MEng Artificial Intelligence
+- area: MSc Cyber Security
+  button:
+    text: Read Thesis
+    url: https://example.com
   date_end: "2020-12-31"
   date_start: "2016-01-01"
-  institution: Massachusetts Institute of Technology
+  institution: Leeds Beckett University
+  summary: |
+    Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+- area: BSc (Hons) Computing and Information Systems
+  date_end: "2020-12-31"
+  date_start: "2016-01-01"
+  institution: Canterbury Christ Church University
   summary: |
     GPA: 3.8/4.0
-
-    Courses included:
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-- area: BSc Artificial Intelligence
-  date_end: "2020-12-31"
-  date_start: "2016-01-01"
-  institution: Massachusetts Institute of Technology
-  summary: |
-    GPA: 3.4/4.0
 
     Courses included:
     - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -60,9 +58,10 @@ education:
 first_name: Shiung Wu
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Software Development
+- Cyber Security
+- Machine Learning
+- Psychology
 languages:
 - name: English
   percent: 100
@@ -71,27 +70,19 @@ languages:
 - name: Portuguese
   percent: 25
 last_name: Chien
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Marios Daskalas
 organizations:
-- name: OpenAI
+- name:
   url: https://openai.com/
 profiles:
 - icon: at-symbol
   label: E-mail Me
   url: mailto:your-email@example.com
-- icon: brands/x
-  url: https://twitter.com/GetResearchDev
-- icon: brands/instagram
-  url: https://www.instagram.com/
 - icon: brands/github
-  url: https://github.com/gcushen
+  url: https://github.com/mariosdaskalas
 - icon: brands/linkedin
-  url: https://www.linkedin.com/
-- icon: academicons/google-scholar
-  url: https://scholar.google.com/
-- icon: academicons/orcid
-  url: https://orcid.org/
-role: Chief Scientist
+  url: https://www.linkedin.com/in/mariosdaskalas
+role: Cyber Security Professional
 skills:
 - items:
   - description: ""
@@ -126,7 +117,7 @@ skills:
 status:
   icon: ☕️
 superuser: true
-title: 吳健雄
+title:
 work:
 - company_logo: ""
   company_name: GenCoin

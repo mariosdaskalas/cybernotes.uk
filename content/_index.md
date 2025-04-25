@@ -24,45 +24,10 @@ sections:
 - block: markdown
   content:
     subtitle: ""
-    text: "Use this area to speak to your mission. I'm a research scientist in the
-      Moonshot team at DeepMind. I blog about machine learning, deep learning, and
-      moonshots.\n\nI apply a range of qualitative and quantitative methods to comprehensively
-      investigate the role of science and technology in the economy.\n\nPlease reach
-      out to collaborate \U0001F603"
-    title: "\U0001F4DA My Research"
+    text: ""
+    title: ""
   design:
     columns: "1"
-- block: collection
-  content:
-    filters:
-      featured_only: true
-      folders:
-      - publication
-    title: Featured Publications
-  design:
-    columns: 2
-    view: article-grid
-  id: papers
-- block: collection
-  content:
-    filters:
-      exclude_featured: false
-      folders:
-      - publication
-    text: ""
-    title: Recent Publications
-  design:
-    view: citation
-- block: collection
-  content:
-    filters:
-      folders:
-      - event
-    title: Recent & Upcoming Talks
-  design:
-    columns: 1
-    view: article-grid
-  id: talks
 - block: collection
   content:
     count: 5
@@ -79,7 +44,7 @@ sections:
     page_type: post
     subtitle: ""
     text: ""
-    title: Recent News
+    title:
   design:
     spacing:
       padding:
