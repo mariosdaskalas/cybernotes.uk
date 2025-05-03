@@ -1,17 +1,23 @@
 ---
-authors:
-- admin
-date: "2025-05-25"
+title: PicoCTF - Bases
+summary: What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+date: 2025-05-25
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption: ''
-summary:
+
+authors:
+  - admin
+
 tags:
-- CTF
-- Pico-CTF
-title: "Pico-CTF Bases"
+  - PicoCTF
 ---
 
-What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+{{< toc mobile_only=true is_open=true >}}
+
+## Writeup
 
 Run the following command in the terminal.
 

@@ -25,36 +25,6 @@ awards:
     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
   title: Object-Oriented Programming in R
   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-education:
-- area: MSc Psychology
-  button:
-    text: Read Thesis
-    url: https://example.com
-  date_end: "2020-12-31"
-  date_start: "2016-01-01"
-  institution: University of Leicester
-  summary: |
-    Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-- area: MSc Cyber Security
-  button:
-    text: Read Thesis
-    url: https://example.com
-  date_end: "2020-12-31"
-  date_start: "2016-01-01"
-  institution: Leeds Beckett University
-  summary: |
-    Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-- area: BSc (Hons) Computing and Information Systems
-  date_end: "2020-12-31"
-  date_start: "2016-01-01"
-  institution: Canterbury Christ Church University
-  summary: |
-    GPA: 3.8/4.0
-
-    Courses included:
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - lorem ipsum dolor sit amet, consectetur adipiscing elit
 first_name: Shiung Wu
 highlight_name: true
 interests:
@@ -62,6 +32,7 @@ interests:
 - Cyber Security
 - Machine Learning
 - Psychology
+- Neuroscience
 languages:
 - name: English
   percent: 100
@@ -77,12 +48,18 @@ organizations:
 profiles:
 - icon: at-symbol
   label: E-mail Me
-  url: mailto:your-email@example.com
+  url:
 - icon: brands/github
   url: https://github.com/mariosdaskalas
 - icon: brands/linkedin
   url: https://www.linkedin.com/in/mariosdaskalas
-role: Cyber Security Professional
+- icon: hb/code-bracket
+  label: HackTheBox
+  url: https://app.hackthebox.com/profile/1527707
+- icon: academicons/springer
+  label: Lichess
+  url: https://lichess.org/@/mariosdaskalas
+role: Cyber Security Specialist
 skills:
 - items:
   - description: ""
