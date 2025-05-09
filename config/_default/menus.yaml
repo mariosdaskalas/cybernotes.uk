@@ -16,6 +16,15 @@ main:
   - name: 🇬 Go
     url: /tags/go/
     weight: 40
+  - name: 🚩 CTF
+    url: /tags/ctf/
+    weight: 50
+  - name: 🐞 Bug Bounty
+    url: /tags/bug/
+    weight: 60
+  - name: 🧠 Psychology
+    url: /tags/psychology/
+    weight: 70
   - name: 💬 Blog
     url: blog/
-    weight: 50
+    weight: 80
