@@ -5,7 +5,7 @@ image:
 math: false
 summary: Easily learn Python in 10 minutes!
 tags:
-- Python
+- none
 title: Learn Python
 type: docs
 ---

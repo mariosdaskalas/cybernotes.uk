@@ -50,8 +50,10 @@ profiles:
   label: E-mail Me
   url:
 - icon: brands/github
+  label: "Github"
   url: https://github.com/mariosdaskalas
 - icon: brands/linkedin
+  label: "Linkedin"
   url: https://www.linkedin.com/in/mariosdaskalas
 - icon: hb/code-bracket
   label: HackTheBox
@@ -59,7 +61,7 @@ profiles:
 - icon: academicons/springer
   label: Lichess
   url: https://lichess.org/@/mariosdaskalas
-role: Cyber Security Specialist
+role: <i>Cyber Security Specialist</i>
 skills:
 - items:
   - description: ""
