@@ -12,9 +12,7 @@ authors:
   - admin
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  -
 ---
 
 Welcome 👋
