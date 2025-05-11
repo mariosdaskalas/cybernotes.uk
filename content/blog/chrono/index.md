@@ -1,6 +1,6 @@
 ---
-title: 🚩 Pico CTF - Bases
-summary: CTF Writeup of Pico CTF - Bases
+title: 🚩 Pico CTF - Chrono
+summary: CTF Writeup of Pico CTF - Chrono
 date: 2023-10-27
 
 # Featured image

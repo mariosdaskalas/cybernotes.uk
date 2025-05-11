@@ -1,6 +1,6 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: 🚩 Pico CTF - 2Warm
+summary: CTF Writeup of Pico CTF - 2Warm
 date: 2023-10-27
 
 # Featured image
@@ -12,7 +12,7 @@ authors:
   - admin
 
 tags:
-  -
+  - CTF
 ---
 
 Welcome 👋
