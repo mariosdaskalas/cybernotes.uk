@@ -10,13 +10,6 @@ sections:
       folders:
       - blog
     default_button_index: 0
-    buttons:
-        - name: All
-          tag: '*'
-        - name: CTF
-          tag: CTF
-        - name: Python
-          tag: python
     text: 
     title: Blog
     count: 0

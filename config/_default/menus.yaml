@@ -10,20 +10,20 @@ main:
   - name: 🗂️ Projects
     url: projects/
     weight: 20
-  - name: 🐍 Python
-    url: /tags/python/
-    weight: 30
-  - name: 🇬 Go
-    url: /tags/go/
-    weight: 40
   - name: 🚩 CTF
     url: /tags/ctf/
-    weight: 50
+    weight: 30
   - name: 🐞 Bug Bounty
     url: /tags/bug/
-    weight: 60
+    weight: 40
+  - name: 📈 Data Science
+    url: /tags/datascience/
+    weight: 50
   - name: 🧠 Psychology
     url: /tags/psychology/
+    weight: 60
+  - name: 🧬 Neuroscience
+    url: /tags/neuroscience/
     weight: 70
   - name: 💬 Blog
     url: blog/
