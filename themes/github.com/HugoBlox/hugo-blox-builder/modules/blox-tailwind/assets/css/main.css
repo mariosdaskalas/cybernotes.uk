@@ -83,3 +83,7 @@
 .h-48 {
   height: 10rem !important;
 }
+
+.flex-zero {
+  flex: 0 !important;
+}
