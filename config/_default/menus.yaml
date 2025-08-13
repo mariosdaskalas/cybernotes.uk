@@ -16,8 +16,8 @@ main:
   - name: 🐞 Bug Bounty
     url: /tags/bug/
     weight: 40
-  - name: 📈 Data Science
-    url: /tags/datascience/
+  - name: 🤖 Machine Learning
+    url: /tags/ml/
     weight: 50
   - name: 🧠 Psychology
     url: /tags/psychology/
