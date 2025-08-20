@@ -2,4 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
-config/_default/params.yaml
+/config/_default/params.yaml
