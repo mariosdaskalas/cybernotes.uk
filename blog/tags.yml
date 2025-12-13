@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+hacking:
+  label: Hacking
+  permalink: /Hacking
+  description: Ethical Hacking
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+machine-learning:
+  label: Machine Learning
+  permalink: /Machine-Learning
+  description: Machine Learning
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+psychology:
+  label: Psychology
+  permalink: /Psychology
+  description: Psychology
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+neuroscience:
+  label: Neuroscience
+  permalink: /Neuroscience
+  description: Neuroscience

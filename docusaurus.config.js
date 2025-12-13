@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'cybernotes.uk',
+  tagline: 'Endless thirst for knowledge',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -83,9 +83,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Cybernotes',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,12 +93,21 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '🗂️ Notes',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '💡 Blog', position: 'left'},
+          {to: '#', label: '🥷🏼 Hacking', position: 'left'},
+          {to: '#', label: '🤖 Machine Learning', position: 'left'},
+          {to: '#', label: '🧠 Psychology', position: 'left'},
+          {to: '#', label: '🧬 Neuroscience', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: '#',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: '#',
+            label: 'Linkedin',
             position: 'right',
           },
         ],
@@ -110,8 +119,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Link 1',
+                to: '#',
+              },
+              {
+                label: 'Link 2',
+                to: '#',
               },
             ],
           },
@@ -119,16 +132,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Link 3',
+                href: '#',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Link 4',
+                href: '#',
               },
             ],
           },
@@ -136,17 +145,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Link 5',
+                to: '#',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Link 6',
+                href: '#',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cybernotes, Inc. Built with ❤️.`,
       },
       prism: {
         theme: prismThemes.github,
