@@ -3,6 +3,55 @@
  * and scoped locally.
  */
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+  }
+}
+
+@keyframes slideInSocial {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -20,4 +69,236 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.personSection {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #1a4d2e 0%, #2d7a4a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.personSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.personCard {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--ifm-background-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.8s ease-out, glowPulse 3s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 4px solid var(--ifm-color-primary);
+  animation: floatAnimation 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.profileImage:hover {
+  transform: scale(1.05) translateY(0px);
+  animation: none;
+}
+
+.personName {
+  margin: 1rem 0 0.5rem 0;
+  color: var(--ifm-color-primary);
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.personBio {
+  color: var(--ifm-text-color-secondary);
+  margin: 0.5rem 0 2rem 0;
+  font-size: 1.1rem;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.socialLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  animation: slideInSocial 0.6s ease-out backwards;
+  position: relative;
+  overflow: hidden;
+}
+
+.socialLink:nth-child(1) {
+  animation-delay: 0.7s;
+}
+
+.socialLink:nth-child(2) {
+  animation-delay: 0.8s;
+}
+
+.socialLink:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.socialLink:nth-child(4) {
+  animation-delay: 1s;
+}
+
+.socialLink::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.socialLink:hover::before {
+  left: 100%;
+}
+
+.socialLink:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-4px) rotate(5deg);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 996px) {
+  .personCard {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .profileImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .socialLinks {
+    gap: 1rem;
+  }
+
+  .socialLink {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}
+
+.quoteSection {
+  padding: 6rem 0;
+  text-align: center;
+  background: #1B1B1D;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  border-left: 5px solid #6dda25;
+  padding-left: 2rem;
+  font-style: italic;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.quote p {
+  margin: 0 0 1rem 0;
+}
+
+.quote footer {
+  font-size: 1rem;
+  color: #7cde3b;
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .quoteSection {
+    padding: 3rem 0;
+  }
+
+  .quote {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 4px solid #6dda25;
+  }
+}
+
+.badgeSection {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #1a4d2e 0%, #2d7a4a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.badgeContainer {
+  max-width: 500px;
+  margin: 2rem auto 0 auto;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(109, 218, 37, 0.2);
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.badge {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .badgeSection {
+    padding: 3rem 0;
+  }
+
+  .badgeContainer {
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem;
+  }
+
+  .badge {
+    height: 300px;
+  }
 }
