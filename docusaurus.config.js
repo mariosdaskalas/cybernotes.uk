@@ -100,18 +100,18 @@ const config = {
           },
           */
           {to: '/blog', label: '💡 Blog', position: 'left'},
-          {to: '#', label: '🥷🏼 Hacking', position: 'left'},
-          {to: '#', label: '🤖 Machine Learning', position: 'left'},
+          {to: '#', label: '🥷🏼 Cyber Security', position: 'left'},
+          {to: '#', label: '🤖 Data Science', position: 'left'},
           {to: '#', label: '🧠 Psychology', position: 'left'},
           {to: '#', label: '🧬 Neuroscience', position: 'left'},
           {
             href: '#',
-            label: 'GitHub',
+            label: '🎯 Projects',
             position: 'right',
           },
           {
-            href: '#',
-            label: 'Linkedin',
+            href: 'https://buymeacoffee.com/mariosdaskalas',
+            label: '☕ Donate',
             position: 'right',
           },
         ],
